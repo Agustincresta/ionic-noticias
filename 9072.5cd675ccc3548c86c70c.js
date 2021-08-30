@@ -1,0 +1,1 @@
+(self.webpackChunknoticias=self.webpackChunknoticias||[]).push([[9072],{9072:(s,o,t)=>{"use strict";t.r(o),t.d(o,{ion_text:()=>l});var c=t(3150),r=t(7585),n=t(1269);const l=class{constructor(s){(0,c.r)(this,s)}render(){const s=(0,r.b)(this);return(0,c.h)(c.H,{class:(0,n.c)(this.color,{[s]:!0})},(0,c.h)("slot",null))}};l.style=":host(.ion-color){color:var(--ion-color-base)}"}}]);
