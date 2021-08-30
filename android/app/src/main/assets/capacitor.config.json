@@ -1,0 +1,6 @@
+{
+	"appId": "com.agustincresta.noticiasaplicaciondev",
+	"appName": "Noticias",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
