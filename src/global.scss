@@ -25,6 +25,10 @@
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
 
+body{
+  
+    background-color: var(--ion-color-dark)
+}
 
 .text-primary{
     color: var(--ion-color-primary) !important;
@@ -66,10 +70,8 @@ ion-spinner {
 }
 
 ion-content {
-    --offset-bottom: auto!important;
-    --overflow: hidden;
-    overflow: auto;
-    &::-webkit-scrollbar {
+
+    ::-webkit-scrollbar {
       display: none;
     }
 }

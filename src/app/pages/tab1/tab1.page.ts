@@ -23,9 +23,9 @@ export class Tab1Page implements OnInit {
   }
 
   cargarNoticias(event?){
-    this.noticiasService.getTopHeadlines()
-    .subscribe(resp => {
-      console.log(resp)
+    this.noticiasService.getTopHeadlines().subscribe
+    (resp => {
+      
         const noti = JSON.parse(resp.contents);
         if (noti.articles.length==0){
           event.target.disabled = true;
@@ -33,8 +33,10 @@ export class Tab1Page implements OnInit {
           return;
         }
         this.noticias.push(...noti.articles);
+        console.log(this.noticias)
  
         if (event) {
+          console.log("articles")
           event.target.complete(); 
         }
     });
